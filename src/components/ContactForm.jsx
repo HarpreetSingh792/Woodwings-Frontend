@@ -60,7 +60,7 @@ const ContactForm = () => {
 
 
         try {
-            await axios.post("http://localhost:3000/send-mssg", {
+            await axios.post("https://woodwings-backend.onrender.com/send-mssg", {
                 "name": name,
                 "mail": mail,
                 "mssg": mssg
