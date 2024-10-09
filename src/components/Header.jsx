@@ -71,7 +71,7 @@ const Header = ({ links }) => {
       {
         isNavLinksOpen && <div className='fixed bg-[#302824] h-[100dvh] z-[99999]  w-full top-0 right-0 transition ease-in-out'>
           <button className='min-[320px]:block lg:hidden outline-none border-none' onClick={() => setIsNavLinksOpen(false)}><RxCross2 className='absolute text-textColor fill-[#bd9b6d] w-10 h-10 right-4 top-4' /></button>
-          <ul className='text-textColor fill-[#bd9b6d] text-4xl flex flex-col justify-center items-center gap-8 mt-28'>
+          <ul className='text-textColor fill-[#bd9b6d] text-4xl flex flex-col justify-center items-center gap-8 mt-28 min-[768px]:h-3/4 min-[768px]:justify-evenly'>
             <Link to={links[0]}
               className='nav-links hover:cursor-pointer  hover:underline transition'
               onClick={()=>setIsNavLinksOpen(false)}

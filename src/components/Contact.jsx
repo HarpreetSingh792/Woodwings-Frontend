@@ -12,7 +12,7 @@ const Contact = () => {
                         <p className='font-bold'>Get in Touch</p>
                         <ul>
                             <li><span className='font-bold'>Phone: </span> <a href="tel:+610403597672" className='text-textColor font-bold'>+61 0403-597-672</a></li>
-                            <li><span className='font-bold'>Email: </span> <a href="mailto:woodwings1313@gmail.com" className='text-textColor font-bold'>woodwings1313@gmail.com</a></li>
+                            <li><span className='font-bold'>Email: </span> <a href="mailto:info@woodwings.com.au" className='text-textColor font-bold'>info@woodwings.com.au</a></li>
                             <li className='flex gap-2'><span className='font-bold'>Address: </span> <address className='text-textColor font-bold'>Unit 2, 33 Meakin Road, Meadowbrook QLD 4131, Australia</address></li>
                         </ul>
                     </div>

@@ -56,12 +56,10 @@ function App() {
           offset={-70}
           duration={1000}><button className="w-fit h-fit  outline-none border-none fixed top-3/4 lg:right-14 min-[320px]:right-4 z-[9999] transition"><IoIosArrowDropupCircle className=" min-[320px]:w-16 min-[320px]:h-16 lg:w-12 lg:h-12 shadow-xl rounded-full fill-[#302824]/80" /></button></Link>
       }
-      <header className="lg:min-h-[calc(100vh-20px)] min-[320px]:min-h-[670px] overflow-hidden bg-no-repeat bg-cover bg-center bg-[url('/assets/hero.png')]" style={{
-        backgroundImage:""
-      }}>
+      <header className="lg:min-h-[calc(100vh-20px)] min-[320px]:h-[700px] overflow-hidden bg-no-repeat bg-cover bg-center bg-[url('/assets/hero.png')]">
         <Header links={linkIds} />
-        <p className="relative lg:top-20 lg:left-[73px] lg:w-[700px] min-[320px]:top-24 min-[320px]:left-4 min-[320px]:w-[calc(100vw-30px)] font-playfair lg:text-5xl min-[320px]:text-3xl  font-bold text-textColor">Custom Kitchen Cabinets and Bespoke Woodworking Solutions</p>
-        <p className="relative lg:top-24 lg:left-[73px] lg:w-[600px] min-[320px]:top-28 min-[320px]:left-[20px] min-[320px]:w-[calc(100vw-50px)] lg:text-base min-[320px]:text-sm font-playfair text-[#F6E1B8] font-normal  text-justify">Transform your home with handcrafted kitchen cabinets, wardrobes, vanities, and more. At Woodwings, we specialize in delivery custom carpentry solutions designed to meet your style and functional need. Let out craftsmanship elevate the heart of your home.</p>
+        <h1 className="relative lg:top-20 lg:left-[73px] lg:w-[700px] min-[320px]:top-24 min-[320px]:left-4 min-[320px]:w-[calc(100vw-30px)] font-playfair lg:text-5xl min-[320px]:text-3xl  font-bold text-textColor">Custom Kitchen Cabinets and Bespoke Woodworking Solutions</h1>
+        <h2 className="relative lg:top-24 lg:left-[73px] lg:w-[600px] min-[320px]:top-28 min-[320px]:left-[20px] min-[320px]:w-[calc(100vw-50px)] lg:text-base min-[320px]:text-sm font-playfair text-[#F6E1B8] font-normal  text-justify">Transform your home with handcrafted kitchen cabinets, wardrobes, vanities, and more. At Woodwings, we specialize in delivery custom carpentry solutions designed to meet your style and functional need. Let out craftsmanship elevate the heart of your home.</h2>
         <Link to={"projects"}
           // className='nav-links hover:cursor-pointer  hover:underline transition'
           // onClick={closeMobileMenu}

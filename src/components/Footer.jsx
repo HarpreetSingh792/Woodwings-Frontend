@@ -62,7 +62,7 @@ const Footer = () => {
                 <ul className="flex flex-col lg:items-start pl-8 lg:justify-start min-[320px]:items-center min-[320px]:justify-center  gap-2">
                     <p className='text-2xl min-[320px]:opacity-50 lg:opacity-100 lg:text-base'>Contact Information</p>
                     <li className=" text-white/70 hover:text-white cursor-pointer w-full">Phone: <a href="tel:+610403597672">+61 0403-597-672</a></li>
-                    <li className=" text-white/70 hover:text-white cursor-pointer w-full">Email: <a href="mailto:woodwings1313@gmail.com">woodwings1313@gmail.com</a></li>
+                    <li className=" text-white/70 hover:text-white cursor-pointer w-full">Email: <a href="mailto:info@woodwings.com.au">info@woodwings.com.au</a></li>
                     <li className='flex gap-2 text-white/70 hover:text-white cursor-pointer'>Address: <address>Unit 2, 33 Meakin Road, Meadowbrook QLD 4131, Australia</address></li>
                 </ul>
 
@@ -76,7 +76,7 @@ const Footer = () => {
                             Facebook</a>
                     </li>
                     <li className="flex gap-2 items-center justify-center text-white/70 hover:text-white cursor-pointer">
-                        <a className="flex gap-2 items-center justify-center" href="www.facebook.com" target="__blank" rel="noopener noreferrer"><RiInstagramFill />
+                        <a className="flex gap-2 items-center justify-center" href="https://www.instagram.com/wood.wings1313?igsh=aTdwOG9oYjIxbGcz" target="__blank" rel="noopener noreferrer"><RiInstagramFill />
                             Instagram</a>
                     </li>
 
